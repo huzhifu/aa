@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="gbk">
+    <title>网络留言板</title>
+    <script type="text/javascript" src="storage_index.js"></script>
+</head>
+<body>
+<h1>网络留言板</h1>
+<textarea id="dome" cols="60" rows="10"></textarea>
+<br>
+<input type="button" value="保存" onclick="saveStorage('dome')">
+<input type="button" value="清空" onclick="clearStorage('msg')">
+<input type="button" value="读取" onclick="loadStorage('msg')">
+<hr>
+<p id="msg"></p>
+</body>
+</html>
